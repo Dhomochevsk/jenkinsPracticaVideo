@@ -16,7 +16,7 @@ pipeline {
         stage('Clonar Repositorio'){
             steps{
                 script{
-                    git ''
+                    git 'https://github.com/Dhomochevsk/jenkinsPracticaVideo.git'
                 }
             }
         }
